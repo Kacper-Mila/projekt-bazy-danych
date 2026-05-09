@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres:16
 
-    container_name: biblioteka-postgres
+    container_name: library-postgres
 
     restart: unless-stopped
 
