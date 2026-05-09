@@ -63,10 +63,19 @@ docker compose down
 ## Project Structure
 
 ```text
-.
+projekt-bazy-danych/
 ├── docker-compose.yml
-├── .env
 ├── README.md
 ├── docs/
-└── sql/
+│   ├── dokumentacja.md
+│   └── diagram-erd.png
+├── sql/
+│   ├── 01_create_database.sql
+│   ├── 02_create_tables.sql
+│   ├── 03_insert_test_data.sql
+│   ├── 04_queries.sql
+│   ├── 05_procedures_functions_triggers.sql
+│   └── 06_roles_permissions.sql
+└── exports/
+    └── przykładowe_wyniki/
 ```
